@@ -64,6 +64,14 @@
 			);
 			target = 4D9EC9602C9B5D7C00D8B522 /* Accept AirPlay Requests */;
 		};
+		4DE6C6EE2D45400500D286D6 /* Exceptions for "Docs" folder in "Accept AirPlay Requests" target */ = {
+			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
+			membershipExceptions = (
+				"airplay-notification.png",
+				"allow-airplay-for-settings.png",
+			);
+			target = 4D9EC9602C9B5D7C00D8B522 /* Accept AirPlay Requests */;
+		};
 /* End PBXFileSystemSynchronizedBuildFileExceptionSet section */
 
 /* Begin PBXFileSystemSynchronizedGroupBuildPhaseMembershipExceptionSet section */
@@ -94,6 +102,14 @@
 			path = Service;
 			sourceTree = "<group>";
 		};
+		4DE6C6E12D453D6C00D286D6 /* Docs */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			exceptions = (
+				4DE6C6EE2D45400500D286D6 /* Exceptions for "Docs" folder in "Accept AirPlay Requests" target */,
+			);
+			path = Docs;
+			sourceTree = "<group>";
+		};
 /* End PBXFileSystemSynchronizedRootGroup section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -112,8 +128,9 @@
 			children = (
 				4D74AC782CA37E120013FA58 /* Accept AirPlay Requests */,
 				4D9EC9662C9B5D9B00D8B522 /* Accept AirPlay Requests */,
-				4DDD007A2D31DC42003D7C28 /* Service */,
+				4DE6C6E12D453D6C00D286D6 /* Docs */,
 				4D54FB402D3430D1009C5A1E /* Scripts */,
+				4DDD007A2D31DC42003D7C28 /* Service */,
 				4D54FB252D33847B009C5A1E /* BundleIcon.icns */,
 				4D54FB1C2D33847B009C5A1E /* Config.xcconfig */,
 				4D54FB202D33847B009C5A1E /* Info.plist */,
@@ -152,6 +169,7 @@
 			fileSystemSynchronizedGroups = (
 				4D54FB402D3430D1009C5A1E /* Scripts */,
 				4DDD007A2D31DC42003D7C28 /* Service */,
+				4DE6C6E12D453D6C00D286D6 /* Docs */,
 			);
 			name = "Accept AirPlay Requests";
 			packageProductDependencies = (
