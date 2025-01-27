@@ -1,6 +1,6 @@
 # (Auto) Accept AirPlay Requests
 
-<img src="https://github.com/duddu/auto-accept-airplay-requests/blob/latest/Docs/airplay-notification.png?raw=true" align="right" width="300px">
+<img src="https://github.com/duddu/auto-accept-airplay-requests/blob/latest/Docs/airplay-notification.png?raw=true" align="right" width="300px" style="padding-bottom:20px">
 
 This is a lightweight, single-purpose macOS app that automatically allows other devices to AirPlay to your computer, eliminating the need for manual intervention—otherwise required when the device is signed into a different iCloud account.  
 It intercepts incoming notifications alerts about devices attempting to AirPlay to your computer and programmatically accepts them.
